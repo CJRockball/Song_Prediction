@@ -43,4 +43,17 @@ classification effectiveness. In Proceedings of the 10th InternationalWorkshop o
 
 ## Filestructure
 
-1. Data exploration and modeldevelopment is described in the [Data_Exploration_and_Model_development](https://github.com/CJRockball/Song_Prediction/blob/main/Data_Exploration_and_Model_Development.ipynb) notebook
+1. Data exploration and modeldevelopment is described in the [Data_Exploration_and_Model_development](https://github.com/CJRockball/Song_Prediction/blob/main/Data_Exploration_and_Model_Development.ipynb) notebook. This file will also predict all the samples in the test file and save to test_answers.
+2. To do data preparation and model training run the data_model_setup.py script. It will save pipeline and model to model_artifacts and filtered csv file to data_artifacts.
+3. To setup and preload a database run the set_up_db.py script. It will reset the database and preload 100 songs from the training data.
+4. To test the prediction algo run the WebUI.py script. It will draw songs from the test csv file, predict genre, commit data to database and suggest other songs from the same genre
+
+### Other Files and Folders
+
+* data; contains raw data and description
+* data_artifacts; contains processed data from ETL pipeline
+* model_artifacts; contains pickeled models
+* templates; contains html templates
+* environment.yml; file specifying python requirements
+* music_data.db; database used by web ui
+* test_answers.csv; predicted genres for test data
