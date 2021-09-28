@@ -84,7 +84,7 @@ for the use
 
 Prerequisits are saved in the .yml file.
 1. The code requires Conda, Install conda
-2. Create environment with support packages.
+2. Create environment with support packages. By typing the following in the conda prompt
 	* conda env create --file environment.yml
 	* conda activate environment
 	* python -m ipykernel install --user --name=environment
