@@ -42,11 +42,11 @@ classification effectiveness. In Proceedings of the 10th InternationalWorkshop o
 
 ## Project
 
-# Data Exploration and Modeling
+### Data Exploration and Modeling
 
 
 
-# Song Database and Model Implementation
+### Song Database and Model Implementation
 To demonstrate the model it is implemented with a web interface. 
 * A basic NF3 database is set up and preloaded with 100 songs from the test dataset
 * If the WebUI file is run the user is presented with a simple interface rquesting the user to choose one of the songs from the test file
