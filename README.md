@@ -43,7 +43,7 @@ classification effectiveness. In Proceedings of the 10th InternationalWorkshop o
 ## Project
 
 ### Data Exploration and Modeling
-Data exploration and modeling is presented in the [Data_Exploration_and_Model_development](https://github.com/CJRockball/Song_Prediction/blob/main notebook. 
+Data exploration and modeling is presented in the [Data_Exploration_and_Model_development](https://github.com/CJRockball/Song_Prediction/blob/main/Data_Exploration_and_Model_Development.ipynb) notebook. 
 * Sklearns pipeline is used for data processing
 * An XGBoost model is optimized and fitted
 * The test file is processed and save as test_answers.csv
