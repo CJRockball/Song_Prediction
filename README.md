@@ -41,6 +41,9 @@ classification effectiveness. In Proceedings of the 10th InternationalWorkshop o
 	8. Metal
 
 
+
+
+
 ## Filestructure
 
 1. Data exploration and modeldevelopment is described in the [Data_Exploration_and_Model_development](https://github.com/CJRockball/Song_Prediction/blob/main/Data_Exploration_and_Model_Development.ipynb) notebook. This file will also predict all the samples in the test file and save to test_answers.
@@ -57,3 +60,13 @@ classification effectiveness. In Proceedings of the 10th InternationalWorkshop o
 * environment.yml; file specifying python requirements
 * music_data.db; database used by web ui
 * test_answers.csv; predicted genres for test data
+
+## Requirements
+
+Prerequisits are saved in the .yml file.
+1. The code requires Conda, Install conda
+2. Create environment with support packages.
+	* conda env create --file environment.yml
+	* conda activate environment
+	* python -m ipykernel install --user --name=environment
+
