@@ -40,8 +40,23 @@ classification effectiveness. In Proceedings of the 10th InternationalWorkshop o
 	7. Classic Pop and Rock
 	8. Metal
 
+## Project
+
+# Data Exploration and Modeling
 
 
+
+# Song Database and Model Implementation
+To demonstrate the model it is implemented with a web interface. 
+* A basic NF3 database is set up and preloaded with 100 songs from the test dataset
+* If the WebUI file is run the user is presented with a simple interface rquesting the user to choose one of the songs from the test file
+Image
+Since the model takes a number of features, the easiest way to use the model is to get rows from the test file. These are filtered and processed by the pipeline 
+and then run through the model.
+* As the data is processed and the genre predicted the database saves the new title and genre. It then calls up some other songs from the same genre and suggests 
+for the use
+Image
+* Some error handling is built into the UI. The user can't choose numbers outside the range [0,428] which is the number of songs in the test file. If non-number symbols er used the request is just reset
 
 
 ## Filestructure
