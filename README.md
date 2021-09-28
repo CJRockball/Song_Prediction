@@ -43,4 +43,4 @@ classification effectiveness. In Proceedings of the 10th InternationalWorkshop o
 
 ## Filestructure
 
-
+1. Data exploration and modeldevelopment is described in the [Data_Exploration_and_Model_development](https://github.com/CJRockball/Song_Prediction/blob/main/Data_Exploration_and_Model_Development.ipynb) notebook
