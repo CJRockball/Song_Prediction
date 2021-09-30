@@ -85,6 +85,6 @@ for the use
 
 ## Requirements
 
-Prerequisits are saved in the .yml file.
+Requirements are saved in the .yml file.
 
 
