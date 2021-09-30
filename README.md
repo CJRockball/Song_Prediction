@@ -86,9 +86,5 @@ for the use
 ## Requirements
 
 Prerequisits are saved in the .yml file.
-1. The code requires Conda, Install conda
-2. Create environment with support packages by typing into the Conda prompt. If you’d like to run the notebook, register this environment with jupyter. For example: 
-	* conda env create --file environment.yml
-	* conda activate environment
-	* python -m ipykernel install --user --name=environment
+
 
