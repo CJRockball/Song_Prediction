@@ -1,8 +1,8 @@
 FROM python:3.6-slim
-WORKDIR /song_predict2
-COPY requirements.txt /song_predict2/requirements.txt
+WORKDIR /Song_Prediction
+COPY requirements.txt /Song_Prediction/requirements.txt
 RUN pip install -r requirements.txt
 
-COPY . /song_predict2
+COPY . /Song_Prediction
 ENTRYPOINT [ "python" ]
 CMD ["WebUI.py"]
