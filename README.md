@@ -4,7 +4,7 @@ Predicts song genre from a set of properties. The model is analyzed and optimize
 ### Updates
 2021-10-01 Added docker. Run docker. Open terminal and navigate to folder Song_Prediction, write "docker-compose up --build", once server is up open web browser and got to 'localhost:5000'
 
-2021-10-04 Added NN model which uses the tags as an embedded layer. The model development code can be found in data_model_NN.py. This code requires Tensor hub.
+2021-10-04 Added NN model which uses the text tags as an embedded layer. The model development code can be found in data_model_NN.py. This code requires Tensor hub.
 ![alt text](https://github.com/CJRockball/Song_Prediction/blob/main/images/multi_learner_song_predict.png)
 
 
