@@ -1,11 +1,16 @@
 # Song Prediction
 Predicts song genre from a set of properties. The model is analyzed and optimized and served through a web interface
 
+### Updates
+2021-10-01 Added docker. Run docker. Open terminal and navigate to folder Song_Prediction, write "docker-compose up --build", once server is up open web browser and got to 'localhost:5000'
+
+2021-10-04 Added NN model which uses the tags as an embedded layer.
+![alt text]()
+
+
 ### Quick Start
 First clone repo.Then there are two options.
-1. Run WebUI.py in commandline or IDE (the packages you need are Flask, Numpy, Pandas, Scikit-learn and XGBoost), web browser should open automatically. Otherwise open browser and go to 'localhost:5000'.
-2. Run docker. Open terminal and navigate to folder Song_Prediction, write "docker-compose up --build", once server is up open web browser and got to 'localhost:5000'
-
+* Run WebUI.py in commandline or IDE (the packages you need are Flask, Numpy, Pandas, Scikit-learn and XGBoost), web browser should open automatically. Otherwise open browser and go to 'localhost:5000'.
 ## Dataset
 Dataset is derived from:
 
