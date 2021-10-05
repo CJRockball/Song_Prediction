@@ -66,7 +66,7 @@ corr_list = []
 cell_list = []
 for j in range(len(cont_corr)):
     for i in range(j,len(cont_corr)):
-        if cont_corr.iloc[i,j] > 0.85:
+        if abs(cont_corr.iloc[i,j]) > 0.85:
             if i != j:
                 corr_list.append((i+1,j+1))
                 cell_list.append(i+1)
