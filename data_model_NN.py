@@ -155,15 +155,15 @@ eval_metric = ['mlogloss']
 clf = XGBClassifier()
 
 # Send values to pipeline
-xgb_baseline = clf.fit(X_train_pipe,Y_train,
+xgb_baseline1 = clf.fit(X_train_pipe,Y_train,
                        eval_set=eval_set, eval_metric=eval_metric,
                        early_stopping_rounds=10, verbose=True)
 
 #%% Save and load trained model
 
-file_name = "model_artifacts/xgb_baseline.pkl"
+file_name = "model_artifacts/xgb_baseline1.pkl"
 
-pickle.dump(xgb_baseline, open(file_name,'wb'))
+pickle.dump(xgb_baseline1, open(file_name,'wb'))
 
 #%% Make neural network
 
