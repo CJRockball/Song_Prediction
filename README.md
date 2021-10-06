@@ -13,6 +13,7 @@ First clone repo.Then there are two options.
 ![alt text](https://github.com/CJRockball/Song_Prediction/blob/main/images/song_predict_NN.png)
 
 2021-10-06 data_model_PCA contains a data cleaning using PCA instead of correlation and variance analysis. It can then be run on XGBoost or NN model
+
 2021-10-06 api_song_predict includes a simple api demo. The file requires flask_restful. the file can be run by itself and it starts a server. Go to "localhost:5001/api/five_latest" a json file will be returned by the 5 last songs to be added to the db. It can also be run in the terminal. Run the file, move to the file folder in the terminal and type "curl -X GET "http://localhost:5001/api/five_latest".
 
 ## Dataset
