@@ -142,7 +142,7 @@ def get_data_sample(sample_row):
         vect_cols = ['vect_130', 'vect_133', 'vect_135', 'vect_136', 'vect_137',
                      'vect_138', 'vect_139', 'vect_140', 'vect_141', 'vect_142',
                      'vect_143', 'vect_144', 'vect_145', 'vect_146', 'vect_148',
-                     'vect_22', 'vect_23', 'vect_26', 'vect_43', 'vect_44', 'vect_45',
+                     'vect_22', 'vect_23', 'vect_26', 'vect_30', 'vect_43', 'vect_44', 'vect_45',
                      'vect_46', 'vect_47', 'vect_48', 'vect_49', 'vect_50', 'vect_51',
                      'vect_52', 'vect_53', 'vect_57', 'vect_59', 'vect_64', 'vect_65',
                      'vect_66', 'vect_68', 'vect_69', 'vect_70', 'vect_71', 'vect_72',
