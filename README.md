@@ -16,7 +16,8 @@ First clone repo.Then there are two options.
 
 2021-10-06 **api_song_predict** includes a simple api demo. The file requires flask_restful. Run the file, it will start a server, go to "localhost:5001/api/five_latest" in a webbrowser, a json file will be returned by the 5 last songs to be added to the db. It can also be run in the terminal. Run the file, move to the file folder in the terminal and type "curl -X GET "http://localhost:5001/api/five_latest".
 
-2021-10-06 Refactored **WebUI.py** and **data_moel_setup.py**.
+2021-10-06 Refactored **WebUI.py** and **data_moel_setup.py**. Fixed data leak, moved more preprocessing to pipeline, made sql function to clean up code.
+
 
 ## Dataset
 Dataset is derived from:
