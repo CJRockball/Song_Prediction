@@ -9,7 +9,7 @@ First clone repo.Then there are two options.
 ## Updates
 2021-10-01 Added docker. Run docker. Open terminal and navigate to folder Song_Prediction, write "docker-compose up --build", once server is up open web browser and got to 'localhost:5000'
 
-2021-10-04 Added NN model which uses the text tags as an embedded layer. The model development code can be found in data_model_NN.py. This code requires Tensor hub.
+2021-10-04 Added NN model which uses the text tags as an embedded layer. The model development code can be found in **data_model_NN.py**. This code requires Tensor hub.
 ![alt text](https://github.com/CJRockball/Song_Prediction/blob/main/images/song_predict_NN.png)
 
 2021-10-06 **data_model_PCA** contains data cleaning using PCA instead of correlation and variance analysis. It can then be run on XGBoost or NN model.
