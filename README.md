@@ -1,16 +1,18 @@
 # Song Prediction
 Predicts song genre from a set of properties. The model is analyzed and optimized and served through a web interface
 
-### Updates
+### Quick Start
+First clone repo.Then there are two options.
+* Run WebUI.py in commandline or IDE (the packages you need are Flask, Numpy, Pandas, Scikit-learn and XGBoost), web browser should open automatically. Otherwise open browser and go to 'localhost:5000'.
+
+
+## Updates
 2021-10-01 Added docker. Run docker. Open terminal and navigate to folder Song_Prediction, write "docker-compose up --build", once server is up open web browser and got to 'localhost:5000'
 
 2021-10-04 Added NN model which uses the text tags as an embedded layer. The model development code can be found in data_model_NN.py. This code requires Tensor hub.
 ![alt text](https://github.com/CJRockball/Song_Prediction/blob/main/images/song_predict_NN.png)
 
 
-### Quick Start
-First clone repo.Then there are two options.
-* Run WebUI.py in commandline or IDE (the packages you need are Flask, Numpy, Pandas, Scikit-learn and XGBoost), web browser should open automatically. Otherwise open browser and go to 'localhost:5000'.
 ## Dataset
 Dataset is derived from:
 
