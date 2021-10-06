@@ -39,7 +39,7 @@ api = Api(app)
 @app.route('/api/five_latest', methods=['GET'])
 def api_latest():
     top_five = get_five()
-    return jsonify(top_five)
+    return make_response(jsonify(top_five),200)
 
 
 if __name__ == '__main__':
