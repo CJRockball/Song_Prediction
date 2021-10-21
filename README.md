@@ -12,7 +12,7 @@ First clone repo.Then there are two options.
 docker run 
 -p 8501:8501 
 --mount type=bind,
-source=C:full file path\tf_serving\wide_folder
+source=C:**full file path**\tf_serving\wide_folder
 ,target=/models/wide_folder 
 -e MODEL_NAME=wide_folder 
 -t tensorflow/serving
