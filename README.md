@@ -7,6 +7,18 @@ First clone repo.Then there are two options.
 
 
 ## Updates
+2021-10-21 Added a tensorflow API model. The folder is self contained and has a copy of the data. The main contains 4 function calls. The first three can be run directly and they ingest and clean data, makes a wide neural network model and uses that model to predict a song from the test file. The fourth call runs the api. Before running that, you need to make a model and then start the tensorflow model server by calling the docker file. In a terminal run
+
+docker run 
+-p 8501:8501 
+--mount type=bind,
+source=C:full file path\tf_serving\wide_folder
+,target=/models/wide_folder 
+-e MODEL_NAME=wide_folder 
+-t tensorflow/serving
+
+then run the test_model_api(94) in the tf_main.py file.
+
 2021-10-01 Added docker. Run docker. Open terminal and navigate to folder Song_Prediction, write "docker-compose up --build", once server is up open web browser and got to 'localhost:5000'
 
 2021-10-04 Added NN model which uses the text tags as an embedded layer. The model development code can be found in **data_model_NN.py**. This code requires Tensor hub.
